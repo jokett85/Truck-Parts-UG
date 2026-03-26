@@ -4,8 +4,8 @@ from supabase import create_client, Client
 
 # --- DATABASE CONNECTION ---
 # Replace these with your actual Supabase URL and Key
-URL = "YOUR_SUPABASE_URL" 
-KEY = "YOUR_SUPABASE_KEY"
+URL = "https://fasgqlvfmrdtlydelnni.supabase.co"
+KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZhc2dxbHZmbXJkdGx5ZGVsbm5pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ1NDYyNzYsImV4cCI6MjA5MDEyMjI3Nn0.gxm--vdmUlxMaGH_r70sMrTxbt-MidtS8Vlse94pkDw"
 supabase: Client = create_client(URL, KEY)
 
 def main():
