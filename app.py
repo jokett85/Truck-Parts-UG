@@ -41,7 +41,7 @@ def main():
 # --- 1. THE MARKETPLACE (Warm Lobby & Ghost Admin) ---
 def render_marketplace():
     # Welcoming Header
-    st.markdown(f"<p class='welcome-text'>Jebale Ko, Driver! 🇺🇬</p>", unsafe_allow_html=True)
+    st.markdown(f"<p class='welcome-text'>Jebale Ko, mukama wange (greetings my boss)! 🇺🇬</p>", unsafe_allow_html=True)
     st.write("Find genuine heavy truck parts from Verified Ugandan Suppliers.")
 
     # Search Bar (The Secret Gate)
